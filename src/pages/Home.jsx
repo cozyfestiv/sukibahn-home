@@ -1,9 +1,9 @@
-import roundLogo from "../assets/Logo/roundlogo.png";
+import roundLogo from "../assets/Logo/roundlogo-l.png";
 
 function Home() {
   return (
     <div className="p-8 flex flex-col">
-      <h1 className="text-6xl font-bold text-brown-1 uppercase tracking-normal">
+      <h1 className="text-6xl font-bold uppercase tracking-normal">
         Coming Soon!
       </h1>
       <img src={roundLogo} alt="Sukhibahn Logo" className=" mx-20" />
