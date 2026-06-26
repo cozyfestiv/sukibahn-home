@@ -25,6 +25,11 @@ function App() {
                 About
               </Link>
             </li>
+            <li>
+              <Link to="/portfolio" className="hover:text-blue-300">
+                Portfolio
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
