@@ -12,7 +12,7 @@ function App() {
           <img
             src={iconLogo}
             alt="Sukhibahn Icon Logo"
-            className=" md:mx-20 h-20"
+            className="h-20 self-beginning"
           />
           <ul className="flex self-center space-x-4 font-bnfatporn text-red-2">
             <li>
