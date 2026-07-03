@@ -1,4 +1,6 @@
-import roundLogo from "../assets/Logo/roundlogo-l.png";
+import portPic from "../assets/Images/Anime/portfolio_cap.jpg";
+import aboutPic from "../assets/Images/Anime/about_cap.jpg";
+import contactPic from "../assets/Images/Anime/contact_cap.jpg";
 
 function Home() {
   return (
@@ -36,12 +38,16 @@ function Home() {
           <hr className="border-bg border-4" />
         </div>
       </div>
-      <div className="relative">
-        <h1 className="text-6xl font-bold uppercase tracking-normal">
-          Coming Soon!
-        </h1>
-        <img src={roundLogo} alt="Sukhibahn Logo" className=" md:mx-20" />
-        <p className="text-3xl mt-4 text-red-1">STUDIOS</p>
+      <div className="w-auto">
+        <div className="w-auto p-20 flex flex-row justify-between gap-10">
+          <img src={portPic} alt="" className="flex-1 min-w-0 object-cover " />
+          <img src={aboutPic} alt="" className="flex-1 min-w-0 object-cover" />
+          <img
+            src={contactPic}
+            alt=""
+            className="flex-1 min-w-0 object-cover"
+          />
+        </div>
       </div>
     </div>
   );
