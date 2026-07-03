@@ -10,6 +10,16 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "BNRascal";
+  src:
+    url("/fonts/BNRascal/BNRascal.woff2") format("woff2"),
+    url("/fonts/BNRascal/BNRascal.woff") format("woff"),
+    url("/fonts/BNRascal/BNRascal.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @theme {
   /* responsive design */
@@ -24,6 +34,7 @@
   --font-baskerville: "Libre Baskerville", serif;
   --font-raleway: "Raleway", sans-serif;
   --font-bnfatporn: "BNFatPorn", sans-serif;
+  --font-bnrascal: "BNRascal", sans-serif;
   --font-sans: system-ui, "Segoe UI", Roboto, sans-serif;
   --font-heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --font-mono: ui-monospace, Consolas, monospace;
@@ -129,8 +140,10 @@
   h1,
   h2 {
     font-family: var(--font-bnfatporn);
-    font-weight: 500;
     color: var(--color-text-h);
+  }
+  h3 {
+    font-family: var(--font-bnrascal);
   }
 
   h1 {

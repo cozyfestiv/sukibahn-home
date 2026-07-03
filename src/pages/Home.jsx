@@ -8,9 +8,9 @@ function Home() {
       {/* hero card */}
       <div className="relative">
         <div className="absolute inset-0 z-10 flex flex-col justify-center">
-          <h1 className="uppercase mx-40">Sukibahn </h1>
-          <h1 className="uppercase mx-40 mb-10">Studio </h1>
-          <h2 className="mx-40">
+          <h1 className="uppercase mx-40 text-white">Sukibahn </h1>
+          <h1 className="uppercase mx-40 mb-10 text-white">Studio </h1>
+          <h2 className="mx-40 text-white">
             Sukeban  (スケバン) is a Japanese term that translates to
             "delinquent girl" or "boss girl". Sukibahn "Beloved Path"
           </h2>
@@ -40,13 +40,42 @@ function Home() {
       </div>
       <div className="w-auto">
         <div className="w-auto p-20 flex flex-row justify-between gap-10">
-          <img src={portPic} alt="" className="flex-1 min-w-0 object-cover " />
-          <img src={aboutPic} alt="" className="flex-1 min-w-0 object-cover" />
-          <img
-            src={contactPic}
-            alt=""
-            className="flex-1 min-w-0 object-cover"
-          />
+          <div className="relative flex-1 min-w-0 group">
+            <img
+              src={portPic}
+              alt=""
+              className="w-full h-full object-cover rounded-full"
+            />
+            <div className="absolute bottom-0 bg-black/20 p-10 px-10 w-full rounded-b-full ">
+              <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
+                Portfolio
+              </h3>
+            </div>
+          </div>
+          <div className="relative flex-1 min-w-0 group">
+            <img
+              src={aboutPic}
+              alt=""
+              className="w-full h-full object-cover rounded-full"
+            />
+            <div className="absolute bottom-0 bg-black/20 p-10 px-10 w-full rounded-b-full">
+              <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
+                About
+              </h3>
+            </div>
+          </div>
+          <div className="relative flex-1 min-w-0 group">
+            <img
+              src={contactPic}
+              alt=""
+              className="w-full h-full object-cover rounded-full"
+            />
+            <div className="absolute bottom-0 bg-black/20 p-10 px-10 w-full rounded-b-full">
+              <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
+                Contact
+              </h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>
