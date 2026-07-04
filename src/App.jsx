@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import iconLogo from "../src/assets/Logo/Icon/horizlogo.png";
+import logoFooter from "../src/assets/Logo/roundlogo-s.png";
 
 function App() {
   return (
@@ -39,6 +40,33 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
+      <hr className="mx-40" />
+      <div className="flex flex-col items-center m-5">
+        <img src={logoFooter} alt="" className="w-42 mt-5" />
+        <p className="uppercase text-red-1 text-xl">Studio</p>
+        <nav className="bg-bgtext-white p-4">
+          <div className="flex justify-between">
+            <ul className="flex self-center space-x-4 font-poppins text-sm text-black">
+              <li>
+                <Link to="/" className="hover:text-blue-300">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="hover:text-blue-300">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link to="/portfolio" className="hover:text-blue-300">
+                  Portfolio
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <p className="text-xs">&#169; Copyright 2026 - Sukibahn Studio </p>
+      </div>
     </BrowserRouter>
   );
 }

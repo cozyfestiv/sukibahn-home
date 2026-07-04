@@ -11,8 +11,8 @@ function Home() {
           <h1 className="uppercase mx-40 text-white">Sukibahn </h1>
           <h1 className="uppercase mx-40 mb-10 text-white">Studio </h1>
           <h2 className="mx-40 text-white">
-            Sukeban  (スケバン) is a Japanese term that translates to
-            "delinquent girl" or "boss girl". Sukibahn "Beloved Path"
+            Sukeban (スケバン) is a Japanese term that translates to "delinquent
+            girl" or "boss girl". Sukibahn "Beloved Path"
           </h2>
         </div>
         <div className="relative z-0">
