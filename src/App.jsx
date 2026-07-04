@@ -11,11 +11,13 @@ function App() {
     <BrowserRouter>
       <nav className="bg-bgtext-white p-4">
         <div className="flex justify-between">
-          <img
-            src={iconLogo}
-            alt="Sukhibahn Icon Logo"
-            className="h-20 self-beginning"
-          />
+          <Link to="/">
+            <img
+              src={iconLogo}
+              alt="Sukhibahn Icon Logo"
+              className="h-20 self-beginning"
+            />
+          </Link>
           <ul className="flex self-center space-x-4 font-bnfatporn text-red-2">
             <li>
               <Link to="/portfolio" className="hover:text-blue-300">
@@ -28,7 +30,7 @@ function App() {
               </Link>
             </li>
             <li>
-              <Link to="/portfolio" className="hover:text-blue-300">
+              <Link to="/contact" className="hover:text-blue-300">
                 Contact
               </Link>
             </li>
@@ -50,17 +52,29 @@ function App() {
           <div className="flex justify-between">
             <ul className="flex self-center space-x-4 font-poppins text-sm text-black">
               <li>
-                <Link to="/portfolio" className="hover:text-white">
+                <Link
+                  to="/portfolio"
+                  className="hover:text-white"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-white">
+                <Link
+                  to="/about"
+                  className="hover:text-white"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-white">
+                <Link
+                  to="/contact"
+                  className="hover:text-white"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   Contact
                 </Link>
               </li>
