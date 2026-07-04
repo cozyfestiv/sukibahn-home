@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import iconLogo from "../src/assets/Logo/Icon/horizlogo.png";
 import logoFooter from "../src/assets/Logo/roundlogo-s.png";
 
@@ -17,8 +18,8 @@ function App() {
           />
           <ul className="flex self-center space-x-4 font-bnfatporn text-red-2">
             <li>
-              <Link to="/" className="hover:text-blue-300">
-                Home
+              <Link to="/portfolio" className="hover:text-blue-300">
+                Portfolio
               </Link>
             </li>
             <li>
@@ -28,7 +29,7 @@ function App() {
             </li>
             <li>
               <Link to="/portfolio" className="hover:text-blue-300">
-                Portfolio
+                Contact
               </Link>
             </li>
           </ul>
@@ -39,6 +40,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <hr className="mx-40" />
       <div className="flex flex-col items-center m-5">
@@ -48,18 +50,18 @@ function App() {
           <div className="flex justify-between">
             <ul className="flex self-center space-x-4 font-poppins text-sm text-black">
               <li>
-                <Link to="/" className="hover:text-blue-300">
-                  Home
+                <Link to="/portfolio" className="hover:text-white">
+                  Portfolio
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-blue-300">
+                <Link to="/about" className="hover:text-white">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/portfolio" className="hover:text-blue-300">
-                  Portfolio
+                <Link to="/contact" className="hover:text-white">
+                  Contact
                 </Link>
               </li>
             </ul>

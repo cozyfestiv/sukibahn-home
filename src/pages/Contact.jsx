@@ -1,6 +1,6 @@
 import roundLogo from "../assets/Logo/roundlogo-l.png";
 
-function Portfolio() {
+function Contact() {
   return (
     <div className="p-8 flex flex-col">
       <h1 className="text-6xl font-bold uppercase tracking-normal">
@@ -12,4 +12,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Contact;

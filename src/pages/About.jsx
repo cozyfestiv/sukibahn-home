@@ -1,10 +1,15 @@
+import roundLogo from "../assets/Logo/roundlogo-l.png";
+
 function About() {
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold text-green-600">About Page</h1>
-      <p className="mt-4">This is the about page.</p>
+    <div className="p-8 flex flex-col">
+      <h1 className="text-6xl font-bold uppercase tracking-normal">
+        Coming Soon!
+      </h1>
+      <img src={roundLogo} alt="Sukhibahn Logo" className=" md:mx-20" />
+      <p className="text-3xl mt-4 text-red-1">STUDIO</p>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
