@@ -42,7 +42,7 @@ function Home() {
       <div className="w-auto">
         <div className="w-auto p-20 flex flex-row justify-between gap-10">
           <div className="relative flex-1 min-w-0 group">
-            <Link>
+            <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)}>
               <img
                 src={portPic}
                 alt=""
@@ -56,7 +56,7 @@ function Home() {
             </Link>
           </div>
           <div className="relative flex-1 min-w-0 group">
-            <Link>
+            <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
               <img
                 src={aboutPic}
                 alt=""
@@ -70,7 +70,7 @@ function Home() {
             </Link>
           </div>
           <div className="relative flex-1 min-w-0 group">
-            <Link>
+            <Link to="contact" onClick={() => window.scrollTo(0, 0)}>
               <img
                 src={contactPic}
                 alt=""
