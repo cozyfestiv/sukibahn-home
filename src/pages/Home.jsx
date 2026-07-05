@@ -41,42 +41,42 @@ function Home() {
       </div>
       <div className="w-auto">
         <div className="w-auto p-20 flex flex-row justify-between gap-10">
-          <div className="relative flex-1 min-w-0 group">
+          <div className="relative flex-1 min-w-0 group transition-all duration-300 hover:scale-110">
             <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)}>
               <img
                 src={portPic}
                 alt=""
                 className="w-full h-full object-cover rounded-full"
               />
-              <div className="absolute bottom-0 bg-black/20 p-10 px-10 w-full rounded-b-full ">
+              <div className="absolute bottom-0 bg-black/20 hover:bg-black/40 p-10 px-10 w-full rounded-b-full ">
                 <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
                   Portfolio
                 </h3>
               </div>
             </Link>
           </div>
-          <div className="relative flex-1 min-w-0 group">
+          <div className="relative flex-1 min-w-0 group transition-all duration-300 hover:scale-110">
             <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
               <img
                 src={aboutPic}
                 alt=""
-                className="w-full h-full object-cover rounded-full"
+                className="w-full h-full object-cover rounded-full "
               />
-              <div className="absolute bottom-0 bg-black/20 p-10 px-10 w-full rounded-b-full">
+              <div className="absolute bottom-0 bg-black/20 hover:bg-black/40 p-10 px-10 w-full rounded-b-full">
                 <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
                   About
                 </h3>
               </div>
             </Link>
           </div>
-          <div className="relative flex-1 min-w-0 group">
+          <div className="relative flex-1 min-w-0 group transition-all duration-300 hover:scale-110">
             <Link to="contact" onClick={() => window.scrollTo(0, 0)}>
               <img
                 src={contactPic}
                 alt=""
                 className="w-full h-full object-cover rounded-full"
               />
-              <div className="absolute bottom-0 bg-black/20 p-10 px-10 w-full rounded-b-full">
+              <div className="absolute bottom-0 bg-black/20 hover:bg-black/40 p-10 px-10 w-full rounded-b-full">
                 <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
                   Contact
                 </h3>
