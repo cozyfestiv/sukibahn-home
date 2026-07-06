@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@plugin "tailwindcss-motion";
+
 @font-face {
   font-family: "BNFatPorn";
   src:

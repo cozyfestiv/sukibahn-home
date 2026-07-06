@@ -9,7 +9,7 @@ function Contact() {
         Coming Soon!
       </h1>
       <img src={roundLogo} alt="Sukhibahn Logo" className=" mx-40" />
-      <p className="text-3xl mx-10 text-red-1">STUDIO</p>
+      <p className="text-3xl mb-10 text-red-1">STUDIO</p>
     </div>
   );
 }

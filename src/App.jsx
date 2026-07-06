@@ -22,7 +22,7 @@ function App() {
             <li>
               <Link
                 to="/portfolio"
-                className="pb-1 border-b-0 border-white border-opacity-0 hover:text-white hover:border-b-2 focus:border-b-2 focus:border-red-2"
+                className="pb-1 border-b-0 border-white border-opacity-0 hover:text-white hover:border-b-2 hover:transition-all hover:duration-300 focus:border-b-2 focus:border-red-2"
               >
                 Portfolio
               </Link>
@@ -30,7 +30,7 @@ function App() {
             <li>
               <Link
                 to="/about"
-                className="pb-1 border-b-0 border-white border-opacity-0 hover:text-white hover:border-b-2 focus:border-b-2 focus:border-red-2"
+                className="pb-1 border-b-0 border-white border-opacity-0 hover:text-white hover:border-b-2 hover:transition-all hover:duration-300 focus:border-b-2 focus:border-red-2"
               >
                 About
               </Link>
@@ -38,7 +38,7 @@ function App() {
             <li>
               <Link
                 to="/contact"
-                className="pb-1 border-b-0 border-white border-opacity-0 hover:text-white hover:border-b-2 focus:border-b-2 focus:border-red-2"
+                className="pb-1 border-b-0 border-white border-opacity-0 hover:text-white hover:border-b-2 hover:transition-all hover:duration-300 focus:border-b-2 focus:border-red-2"
               >
                 Contact
               </Link>
