@@ -1,4 +1,4 @@
-import Header from "../assets/Components/Header";
+import Header from "../components/Hero";
 import aboutPic from "../assets/Images/Anime/about_cap.jpg";
 import aboutPic2 from "../assets/Images/Anime/about_cap2.jpg";
 
@@ -40,7 +40,7 @@ function About() {
             to renovating my newly purchased home. I found that throughout much
             of the projects that my husband and I were working on, that
             designing and everything that it encompasses allowed me an artistic
-            outlet that I neglected for years. I discovered that I was able to
+            outlet that I neglected for years. I discovered that I was able to
             incorporate my art training into redesigning my home, that I had a
             knack for tile work, bold color usage, a love for antique furniture,
             and a unique consideration for the practicality of interior design

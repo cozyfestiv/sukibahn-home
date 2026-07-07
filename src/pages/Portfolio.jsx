@@ -1,5 +1,5 @@
 import comingSoon from "../assets/Images/Anime/coming_soon.jpg";
-import Header from "../assets/Components/Header";
+import Header from "../components/Hero";
 
 function Portfolio() {
   return (
@@ -13,7 +13,7 @@ function Portfolio() {
         alt="Sukhibahn Logo"
         className="mx-80 mb-20 motion-translate-y-loop-[10%] motion-duration-[1s] motion-ease-smooth rounded-full "
       />
-      <p className="text-3xl mb-10 text-red-1">STUDIO</p>
+      <p className="uppercase text-3xl mb-10 text-red-1">Studio</p>
     </div>
   );
 }

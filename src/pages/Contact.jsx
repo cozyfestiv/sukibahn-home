@@ -1,5 +1,5 @@
 import roundLogo from "../assets/Logo/roundlogo-l.png";
-import Header from "../assets/Components/Header";
+import Header from "../components/Hero";
 
 function Contact() {
   return (
