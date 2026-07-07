@@ -7,7 +7,7 @@ export default function NavLinks({ setShowMenu, selected, toggleSelected }) {
   }
 
   const links = [
-    { to: "/", label: "Home" },
+    // { to: "/", label: "Home" },
     { to: "/about", label: "About" },
     { to: "/portfolio", label: "Portfolio" },
     { to: "/contact", label: "Contact" },

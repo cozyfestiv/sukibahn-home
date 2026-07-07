@@ -9,9 +9,13 @@ function Home() {
       {/* hero card */}
       <div className="relative">
         <div className="absolute inset-0 z-10 flex flex-col justify-center">
-          <h1 className="uppercase mx-40 text-white">Sukibahn </h1>
-          <h1 className="uppercase mx-40 mb-10 text-white">Studio </h1>
-          <h2 className="mx-40 text-white">
+          <h1 className="uppercase mx-auto text-white text-7xl lg:text-8xl">
+            Sukibahn
+          </h1>
+          <h1 className="uppercase mx-auto mb-10 text-white text-7xl lg:text-8xl">
+            Studio
+          </h1>
+          <h2 className="mx-auto px-15 text-white">
             Sukeban (スケバン) is a Japanese term that translates to "delinquent
             girl" or "boss girl". Sukibahn "Beloved Path"
           </h2>
@@ -40,16 +44,18 @@ function Home() {
         </div>
       </div>
       <div className="w-auto">
-        <div className="w-auto p-20 flex flex-row justify-between gap-10">
+        <div className="w-auto p-20 flex flex-col lg:flex-row justify-between gap-10">
           <div className="relative flex-1 min-w-0 group transition-all duration-300 hover:scale-110">
             <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)}>
-              <img
-                src={portPic}
-                alt=""
-                className="w-full h-full object-cover rounded-full"
-              />
-              <div className="absolute bottom-0 bg-black/20 hover:bg-black/40 p-10 px-10 w-full rounded-b-full ">
-                <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
+              <div className="aspect-[3/4] w-full overflow-hidden rounded-full">
+                <img
+                  src={portPic}
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute h-1/2 bottom-0 left-0 right-0 bg-black/20 hover:bg-black/40 p-6 pb-8 rounded-b-full flex flex-row justify-center items-center lg:justify-start">
+                <h3 className="text-white italic text-6xl lg:text-4xl font-bnrascal font-bold">
                   Portfolio
                 </h3>
               </div>
@@ -57,13 +63,15 @@ function Home() {
           </div>
           <div className="relative flex-1 min-w-0 group transition-all duration-300 hover:scale-110">
             <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
-              <img
-                src={aboutPic}
-                alt=""
-                className="w-full h-full object-cover rounded-full "
-              />
-              <div className="absolute bottom-0 bg-black/20 hover:bg-black/40 p-10 px-10 w-full rounded-b-full">
-                <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
+              <div className="aspect-[3/4] w-full overflow-hidden rounded-full">
+                <img
+                  src={aboutPic}
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute h-1/2 bottom-0 left-0 right-0 bg-black/20 hover:bg-black/40 p-10 w-full rounded-b-full flex flex-row justify-center items-center lg:justify-start">
+                <h3 className="text-white italic text-6xl lg:text-4xl text-left font-bnrascal font-bold">
                   About
                 </h3>
               </div>
@@ -71,13 +79,15 @@ function Home() {
           </div>
           <div className="relative flex-1 min-w-0 group transition-all duration-300 hover:scale-110">
             <Link to="contact" onClick={() => window.scrollTo(0, 0)}>
-              <img
-                src={contactPic}
-                alt=""
-                className="w-full h-full object-cover rounded-full"
-              />
-              <div className="absolute bottom-0 bg-black/20 hover:bg-black/40 p-10 px-10 w-full rounded-b-full">
-                <h3 className="text-white italic text-3xl text-left mb-3 font-bnrascal font-bold">
+              <div className="aspect-[3/4] w-full overflow-hidden">
+                <img
+                  src={contactPic}
+                  alt=""
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <div className="absolute h-1/2 bottom-0 left-0 right-0 bg-black/20 hover:bg-black/40 p-10 w-full rounded-b-full flex flex-row justify-center items-center lg:justify-start">
+                <h3 className="text-white italic text-6xl lg:text-4xl text-left font-bnrascal font-bold">
                   Contact
                 </h3>
               </div>

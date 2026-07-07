@@ -15,7 +15,7 @@ export default function Nav() {
     <>
       <nav>
         {/* Desktop Nav */}
-        <div className="hidden md:flex justify-between items-center gap-5 p-5 mr-5">
+        <div className="hidden md:flex justify-between items-center gap-5 p-5">
           <NavLinks
             setShowMenu={setShowMenu}
             selected={selected}
