@@ -55,7 +55,7 @@ function Home() {
                 />
               </div>
               <div className="absolute h-1/2 bottom-0 left-0 right-0 bg-black/20 hover:bg-black/40 p-6 pb-8 rounded-b-full flex flex-row justify-center items-center lg:justify-start">
-                <h3 className="text-white italic text-6xl lg:text-4xl font-bnrascal font-bold">
+                <h3 className="text-white italic text-4xl font-bnrascal font-bold">
                   Portfolio
                 </h3>
               </div>
@@ -71,7 +71,7 @@ function Home() {
                 />
               </div>
               <div className="absolute h-1/2 bottom-0 left-0 right-0 bg-black/20 hover:bg-black/40 p-10 w-full rounded-b-full flex flex-row justify-center items-center lg:justify-start">
-                <h3 className="text-white italic text-6xl lg:text-4xl text-left font-bnrascal font-bold">
+                <h3 className="text-white italic text-4xl text-left font-bnrascal font-bold">
                   About
                 </h3>
               </div>
@@ -87,7 +87,7 @@ function Home() {
                 />
               </div>
               <div className="absolute h-1/2 bottom-0 left-0 right-0 bg-black/20 hover:bg-black/40 p-10 w-full rounded-b-full flex flex-row justify-center items-center lg:justify-start">
-                <h3 className="text-white italic text-6xl lg:text-4xl text-left font-bnrascal font-bold">
+                <h3 className="text-white italic text-4xl text-left font-bnrascal font-bold">
                   Contact
                 </h3>
               </div>
