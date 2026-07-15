@@ -2,7 +2,7 @@ function Header({ headerText }) {
   return (
     <div className="relative">
       <div className="absolute inset-0 z-10 flex flex-col justify-center">
-        <h1 className="uppercase mx-auto text-white tracking-wide text-6xl lg:text-6xl">
+        <h1 className="uppercase mx-auto text-white tracking-wide text-6xl drop-shadow-lg">
           {headerText}
         </h1>
       </div>

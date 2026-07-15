@@ -9,10 +9,10 @@ function Home() {
       {/* hero card */}
       <div className="relative">
         <div className="absolute inset-0 z-10 flex flex-col justify-center">
-          <h1 className="uppercase mx-auto text-white text-7xl lg:text-8xl">
+          <h1 className="uppercase mx-auto text-white text-7xl drop-shadow-lg lg:text-8xl">
             Sukibahn
           </h1>
-          <h1 className="uppercase mx-auto mb-10 text-white text-7xl lg:text-8xl">
+          <h1 className="uppercase mx-auto mb-10 text-white text-7xl drop-shadow-lg lg:text-8xl">
             Studio
           </h1>
           <h2 className="mx-auto px-15 text-white">
