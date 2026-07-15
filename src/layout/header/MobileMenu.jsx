@@ -27,7 +27,7 @@ export default function MobileMenu({
     showMenu && (
       <div
         ref={mobileMenuRef}
-        className="fixed top-20 bg-bg left-0 w-full flex flex-col items-center gap-10 p-5 text-xl z-50 border-2 border-t-0 border-red-1"
+        className="fixed top-20 bg-bg left-0 w-full flex flex-col items-center gap-10 p-5 text-xl z-50 border-2 border-red-1"
       >
         <NavLinks
           setShowMenu={setShowMenu}

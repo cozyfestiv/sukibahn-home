@@ -20,7 +20,7 @@ export default function NavLinks({ setShowMenu, selected, toggleSelected }) {
           key={link.to}
           to={link.to}
           onClick={() => onClickHandler(link.label.toLowerCase())}
-          className={`border-b-2 ${
+          className={`border-b-2 hover:border-white-2 hover:text-white ${
             selected === link.label.toLowerCase()
               ? "border-red-2"
               : "border-transparent"

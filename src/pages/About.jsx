@@ -16,7 +16,7 @@ function About() {
           <h3 className="text-3xl lg:text-[50px] text-center my-10 ">
             About the designer:
           </h3>
-          <p className="mx-2 text-xl lg:text-base ">
+          <p className="mx-2 text-lg lg:text-base ">
             I feel that I am a woman who has worn many hats in her lifetime and
             I always identified with the misfits, the sukeban of Japan. I
             initially started my education as an art student focusing on fine
@@ -38,7 +38,7 @@ function About() {
           <h3 className="text-3xl lg:text-[50px] text-center my-10 ">
             Work with me!
           </h3>
-          <p className="mx-2 text-xl lg:text-base">
+          <p className="mx-2 text-lg lg:text-base">
             Like many in the service industry, I was blindsided by the pandemic.
             Unable to work in-person due to COVID-19, I refocused my attention
             to renovating my newly purchased home. I found that throughout much
