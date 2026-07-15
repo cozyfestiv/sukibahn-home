@@ -28,7 +28,6 @@ export default function Nav() {
           <button onClick={toggleNav} className="">
             <FontAwesomeIcon
               icon={showMenu ? faX : faBars}
-              color="black"
               size={showMenu ? "lg" : "xl"}
             />
           </button>
